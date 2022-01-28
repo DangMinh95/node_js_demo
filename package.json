@@ -1,0 +1,32 @@
+{
+  "name": "demo_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "auto-restart": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DangMinh95/node_js_demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "MinhDT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DangMinh95/node_js_demo/issues"
+  },
+  "homepage": "https://github.com/DangMinh95/node_js_demo#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
